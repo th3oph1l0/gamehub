@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f8;
+  color: #222;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 24px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+  color: #4b4ff2;
+  margin: 0;
+}
+
+.header input {
+  flex: 1;
+  max-width: 400px;
+  padding: 8px 12px;
+}
+
+.conteudo {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.total {
+  font-size: 1.1rem;
+  margin-bottom: 16px;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+}
+
+.form,
+.painel-lista {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.form {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.painel-lista {
+  flex: 1;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+label.check {
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4b4ff2;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-excluir {
+  background-color: #d9363e;
+}
+
+.mensagem {
+  color: #666;
+}
+
+.mensagem.erro {
+  color: #d9363e;
+}
+
+.lista {
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card p {
+  margin: 4px 0 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.selo {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+}
+
+.selo.ok {
+  background-color: #d9f5e0;
+  color: #17803d;
+}
+
+.selo.pendente {
+  background-color: #fde3e3;
+  color: #d9363e;
+}
+
+.fundo-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 350px;
+  text-align: center;
+}
+
+.aviso {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.modal-botoes {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.modal-botoes button {
+  flex: 1;
+}
